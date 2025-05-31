@@ -1,0 +1,34 @@
+{
+  "name": "SODRAM - Specific Open Dataset Regional Analysis Metadata",
+  "private": false,
+  "description": "SODRAM collects DCAT and none-DCAT metadata from Open Data portals and analyzes them to classify the datasets into thematic categories. The classification is based on the metadata fields and their values. The tool is designed to work with DCAT-AP, CKAN, and ARCGIS metadata formats.",
+  "license": "MIT",
+  "version": "0.0.1",
+  "author": "Florian Hahn",
+  "type": "module",
+  "main": "sodram.js",
+  "scripts": {
+    "dev": "node sodram.js",
+    "test": "node sodram.js",
+    "build": "node sodram.js",
+    "live": "node sodram.js",
+    "start": "node sodram.js"
+  },
+  "keywords": [
+    "Geospatial Metadata",
+    "Thematic Dataset Classification",
+    "Open Data Dataset Metadata",
+    "DCAT-AP",
+    "CKAN",
+    "ARCGIS",
+    "Metadata Quality Assessment",
+    "SODIC"
+  ],
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "csv-writer": "^1.6.0",
+    "n3": "^1.25.2",
+    "node-fetch": "^3.3.2",
+    "rdfxml-streaming-parser": "^3.0.1"
+  }
+}
